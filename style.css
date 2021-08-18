@@ -13,6 +13,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -24,6 +25,11 @@ html {
 body {
   font-family: var(--font-family);
   font-weight: var(--font-weight-light);
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
 }
 
 .container {
@@ -56,9 +62,7 @@ nav .container {
 }
 
 .menu .link {
-  color: var(--dark);
   font-size: 1.2rem;
-  text-decoration: none;
 }
 
 .menu .link::after {
@@ -69,11 +73,13 @@ nav .container {
   background: var(--orange);
 
   transform: scale(0);
-  transform-origin: right;
   transition: transform var(--animation-timing);
+
+  transform-origin: right;
 
   animation: fade-in var(--animation-timing);
 }
+
 .menu .link:hover::after {
   transform: scale(1);
   transform-origin: left;
@@ -84,8 +90,8 @@ nav .container {
     opacity: 0;
   }
 
-  60% {
-    opacity: 0.8;
+  90% {
+    opacity: 0.6;
   }
 
   100% {
