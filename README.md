@@ -1,6 +1,6 @@
 # Hover sliding animation from Left to Right
 
-Snippet code from : [https://blog.snippetsnack.fr/](https://blog.snippetsnack.fr/)
+Snippet code from : [https://blog.snippetsnack.fr/](https://blog.snippetsnack.fr/soulignement-au-survol-de-gauche-a-droite/)
 
 Quick Demo :
 
